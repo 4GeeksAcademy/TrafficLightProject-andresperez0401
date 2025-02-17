@@ -7,4 +7,12 @@ import { useEffect, useState } from "react";
     
 
 
+
+    return  <div className="cajaSemaforo">
+                <div className="redLight"></div>
+                <div className="yellowLight"></div>
+                <div className="greenLight"></div>;
+            </div>
+
+
  }
