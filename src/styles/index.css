@@ -23,6 +23,12 @@
     100% { box-shadow: 0 0 5px 5px rgba(34, 251, 34, 0.7); }
 }
 
+@keyframes flashingBorderPurple {
+    0% { box-shadow: 0 0 5px 5px rgba(227, 28, 253, 0.7); }
+    50% { box-shadow: 0 0 15px 10px rgba(221, 0, 255, 0.5); }
+    100% { box-shadow: 0 0 5px 5px rgba(227, 28, 253, 0.7); }
+}
+
 /* Div principal de la pagina */
 .mainDiv{
     display: flex;
@@ -60,6 +66,14 @@
     left: 300px;
 }
 
+#botonMorado{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    background-color: purple;
+    border-color: purple;
+}
+
 /* Div que contiene las luces del semaforo, es la caja externa */
 .cajaSemaforo{
     display: flex;
@@ -86,6 +100,14 @@
     height: 33%;
     width: 10vw;
     background-color: rgba(241, 249, 123, 0.858);
+    border-radius: 60%;
+    margin: 5px;
+}
+
+.purpleLight{
+    height: 33%;
+    width: 10vw;
+    background-color: rgb(249, 76, 249);
     border-radius: 60%;
     margin: 5px;
 }
@@ -127,4 +149,13 @@
     border-radius: 60%;
     margin: 5px;
     animation: flashingBorderGreen 0.8s infinite ;
+}
+
+.purpleLightSelected{
+    height: 33%;
+    width: 10vw;
+    background-color: rgb(226, 3, 247);
+    border-radius: 60%;
+    margin: 5px;
+    animation: flashingBorderPurple 0.8s infinite ;
 }

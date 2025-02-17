@@ -15,6 +15,7 @@ const Home = () => {
 					<div className="buttonAlternate">
 						<button className="btn btn-primary" id="botonAlternar">Alternar</button>
 					</div>
+					<button className="btn btn-primary" id="botonMorado">Activar Morado</button>
 				</div>
 				<Semaforo />
 			</div>
