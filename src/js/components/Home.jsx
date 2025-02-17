@@ -9,7 +9,12 @@ const Home = () => {
 	return (
 		<div className="mainDiv">
 			<div className="semaforo">
-				<div className="poste">
+				<div>
+					<div className="poste">
+					</div>
+					<div className="buttonAlternate">
+						<button className="btn btn-primary" id="botonAlternar">Alternar</button>
+					</div>
 				</div>
 				<Semaforo />
 			</div>
