@@ -89,12 +89,6 @@ import { useEffect, useState } from "react";
                 setColor("purple")});
             divPadre.appendChild(divMorado);
         }
-
-
-        let botonAlternar = document.getElementById("botonAlternar");
-        if (botonAlternar) {
-            botonAlternar.addEventListener("click", alternarColores);
-        }
     }
 
     //esta funcion alterna entre los colores del semaforo
