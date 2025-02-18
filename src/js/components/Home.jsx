@@ -3,6 +3,7 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Semaforo } from "./Semaforo";
+import { Semaforo2 } from "./Semaforo2";
 
 //create your first component
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
 					</div>
 					<button className="btn btn-primary" id="botonMorado">Activar Morado</button>
 				</div>
-				<Semaforo />
+				<Semaforo2 />
 			</div>
             
 		</div>
